@@ -1,10 +1,10 @@
-# kerens-meme-generator
+# meme-generator
 Implementation of a "mobile first" responsive app that uses Canvas to generate Memes
 
-## Build Setup
+# Build Setup:
 
-# install dependencies
+## install dependencies
 npm install
 
-# serve with hot reload at localhost:8080 (using live-server)
+## serve with hot reload at localhost:8080 (using live-server)
 npm start
