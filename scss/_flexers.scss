@@ -1,13 +1,3 @@
-.clean-list {
-  list-style: none;
-}
-
-.img-responsive {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  width: 100%;
-}
 
 /*----------  Flex Helpers  ----------*/
 
@@ -27,6 +17,10 @@
   justify-content: space-between;
 }
 
+.flex-column{
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -34,3 +28,12 @@
 .full-height {
   height: 100%;
 }
+
+
+/* Breakpoint mixins */
+
+// @mixin for-mobile-only {
+//   @media (max-width: $mobile-breakpoint) {
+//     @content;
+//   }
+// }
